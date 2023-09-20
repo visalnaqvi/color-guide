@@ -1,0 +1,139 @@
+@import 'style.css';
+
+.dropbtn {
+    border: none;
+    background-color: var(--body);
+    color: var(--border);
+    border: 1px solid   var(--border);
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 400px;
+    margin-left: auto;
+    margin-top: 20px;
+    border-radius: 4px;
+  }
+  
+  /* .dropbtn:hover, .dropbtn:focus {
+    background-color: #000000;
+    color:white;
+    border: none;
+  } */
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--edit-sec-color);
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 10px;
+    height: auto;
+  }
+
+  
+  .dropdown-content a {
+    color:var(--border);
+    font-size: small;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .content-holder2{
+    margin: 100px;
+    margin: 80px 120px;
+    line-height: 40px;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.show{
+    display: block;
+    z-index: 9;
+}
+
+.cir{
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 20px;
+    font-size: small;
+}
+
+.cir:hover{
+    background-color: var(--body);
+}
+
+.cir2{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    pointer-events: none;
+    color:var(--border);
+}
+
+#red{
+    background-color: red;
+    pointer-events: none;
+}
+
+#blue{
+    background-color: blue;
+    pointer-events: none;
+}
+
+#pink{
+    background-color: mediumorchid;
+    pointer-events: none;
+}
+
+#cyan{
+    background-color: cyan;
+    pointer-events: none;
+}
+
+#yellow{
+    background-color: yellow;
+    pointer-events: none;
+}
+
+#purple{
+    background-color: purple;
+    pointer-events: none;
+}
+#orange{
+    background-color: orange;
+    pointer-events: none;
+}
+
+#brown{
+    background-color: brown;
+    pointer-events: none;
+}
+
+#green{
+    background-color: greenyellow;
+    pointer-events: none;
+}
+
+@media only screen and (max-width:700px){
+
+    .content-holder2{
+        margin: 10%;
+        font-size: medium;
+    }
+    
+
+}

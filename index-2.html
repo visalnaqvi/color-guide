@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from color-guide-nv.web.app/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Sep 2023 12:45:48 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="colorstyle.css">
+    <link rel="stylesheet" href="drpdown.css">
+    <title>Color Generator</title>
+</head>
+<body>
+    <div class="nav">  
+        <div class="ham-menu"0>
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="menu" id="menu">
+            
+                <a href="index-2.html"><div class="item">Palletes</div></a>
+                <!-- <a href="./random_gen.html"><div class="item">Pallete Generator</div></a> -->
+                <a href="gradient-gen.html"><div class="item">Gradients</div></a>
+                <a href="colors.html"><div class="item">Colors</div></a>
+            
+        </div>
+        <div class="nav-holder">
+        <h3>COLORS DECK</h3>
+        <div></div>
+        <ul>
+            <li><a href="index-2.html">Palletes</a></li>
+            <li><a href="random_gen.html">Pallete Generator</a></li>
+            <li><a href="gradient-gen.html">Gradients</a></li>
+            <li><a href="colors.html">Colors</a></li>
+        </ul>
+    </div>
+        <div class="settings" id="setting"></div>
+        
+    </div>
+
+    <div class="todle">
+        Your Palette has been added, scroll to down to check .
+        <div class="cancel">&#10005;</div>
+    </div>
+
+    <div class="content-holder">
+        <h1>Colors Deck</h1>
+        <br>
+        <p>Colors deck helps you to make palettes which represents your brand. With powerfull tools generate new palettes or gradiends and get their HEX,RGB and HSL values. Choose from the wide variety of available pre-made color palattes and gradiends.
+            or create a new ones from scratch.
+        </p>
+    </div>
+
+    <div class="margin-holder">
+        <p>Spaced Cards</p>
+        <div class="margin-toggle" id="margin-toggle">
+            <div class="circle" id="circle-margin"></div>
+        </div>
+    </div>
+    
+    <div class="color-card-holder">
+        
+        <!-- <div class="edit-sec-container">
+            <div class="input-holder">
+                <div class="result-rgb-box" id="rgb-box0">RGB(44,84,78)</div>
+                <div>Red:</div><input type="range" id="red0" value="44" max="255" min="0">
+                <div>Green:</div><input class="green" type="range" id="green0" value="84" max="255" min="0">
+                <div>Blue:</div><input type="range" id="blue0" value="78" max="255" min="0">
+            </div>
+            <button class="close-edit-sec">
+                CLOSE
+            </button>
+            
+            <div class="color-card first" id="color0">
+              
+                <div class="cross" id="cross0">&#9747;</div>
+              
+                <div class="lock-holder">
+                    <div class="lock"></div>
+                </div>
+              
+                <div class="pen-holder">
+                    <div class="pen"></div>
+                </div>
+             
+                <div class="color-code" id="color-code0">#2B524C</div>
+            </div>
+            
+            
+        </div> -->
+
+    </div>
+
+<div class="btns-holder">
+    <button class="color-change-btn"><div class="refresh"></div></button>
+    <button class="save-data-btn">DONE</button>
+</div>
+
+<div class="content-holder2">
+    <h1>Pre-Made Color Palettes</h1>
+    <!-- <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Filters</button>
+        <div id="myDropdown" class="dropdown-content">
+          <div class="cir" id="all"><div class="cir2" id="all"></div>All</div>
+          <div class="cir" id="red-fil"><div class="cir2" id="red"></div>Red</div>
+          <div class="cir" id="blue-fil"><div class="cir2" id="blue"></div>Blue</div>
+          <div class="cir" id="pink-fil"><div class="cir2" id="pink"></div>Pink</div>
+          <div class="cir" id="cyan-fil"><div class="cir2" id="cyan"></div>Cyan</div>
+          <div class="cir" id="yellow-fil"><div class="cir2" id="yellow"></div>Yellow</div>
+          <div class="cir" id="purple-fil"><div class="cir2" id="purple"></div>Purple</div>
+          <div class="cir" id="orange-fil"><div class="cir2" id="orange"></div>Orange</div>
+          <div class="cir" id="brown-fil"><div class="cir2" id="brown"></div>Brown</div>
+          <div class="cir" id="green-fil"><div class="cir2" id="green"></div>Green</div>
+        </div>
+      </div> -->
+</div>
+
+<div class="similar-color-card-holder" id="holder">
+
+    
+</div>
+    
+
+<footer class="footer">
+    <div class="video">
+        <video autoplay muted loop src="icons/COLORS%20DECK.mp4"></video>
+        <p>Made with &hearts; by Visal Naqvi</p>
+    </div>
+</footer>
+
+<script src="../www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+<script src="../www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+
+<script src="../www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+
+</body>
+<script src="palette.js"></script>
+<script src="nav-script.js"></script>
+<script src="app.js"></script>
+<script src="ac-colors.min.js"></script>
+
+<!-- Mirrored from color-guide-nv.web.app/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Sep 2023 12:45:48 GMT -->
+</html>
